@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Bai Jamjuree';
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+
+}
+#headinho{
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 110px;
+}
+.link-header{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    text-decoration: none;
+    color: white;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 200px;
+    flex-direction: column;
+    align-items: center;
+
+}
+#whoiam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin:  0 auto;
+    width: 80%;
+    height: 400px;
+}
+#whoiam p{
+    text-align: center;
+}
+#I{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 450px;
+    background-color: #2D82B7;
+    gap: 15px;
+    text-align: center;
+    padding-top: 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#p1{
+    text-align: center;
+    width: 500px;
+    background-color: blueviolet;
+}
+#iam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.cards{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.box{
+    gap: 30px;
+    width: 250px;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+#h1sk{
+    display: flex;
+    justify-content: center;
+}
+#skillicon{
+    display: flex;
+    justify-content: center;
+
+}
+#skill{
+    display: flex;
+    margin-top: 170px;
+    gap: 100px;
+    flex-direction: column;
+}
+#Cards2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 170px;
+}
+.l2b2{
+    color: white;
+    font-size: 23px;
+}
+.box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px;
+}
+.boxd{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto; 
+    background-color: #2D82B7;
+    padding: 45px 35px;
+    border-radius: 20px;
+    gap: 13px;
+}
+.p2b2{
+    font-size: 14px;
+    
+}
+.h3b2{
+    font-size: 35px;
+}
+#Cards2 h1{
+    padding: 40px;
+}
+#footer{
+    background-color: rgb(68, 37, 241);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    height: 400px;
+}
+#box_left img{
+    background-size: cover;
+}
+#box_rigth{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    margin: 1px;
+}
+#h2-footer{
+margin: 80px 0px;   
+}
+
+#link-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+}
+#link-footer{
+    gap: 50px 100px;
+}
