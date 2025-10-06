@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #161616;
     color: white;
     font-family: 'Bai Jamjuree';
 }
@@ -19,7 +19,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 110px;
+    padding: 60px 110px;
+    border-bottom: white 1px solid;
+    color: white;
 }
 .link-header{
     list-style: none;
@@ -28,6 +30,15 @@ body{
     gap: 32px;
     text-decoration: none;
     color: white;
+    font-size: 35px;
+}
+#header-items{
+    color: white;
+    text-decoration: none;
+    flex-direction: row;
+    display: flex;
+    font-size: 35px;
+    gap: 40px;
 }
 main{
     display: flex;
@@ -47,9 +58,15 @@ main{
     margin:  0 auto;
     width: 80%;
     height: 400px;
+
 }
 #whoiam p{
     text-align: center;
+    width: 70%;
+    font-size: 20px;
+}
+#whoiam h1{
+    font-size: 45px;
 }
 #I{
     display: flex;
@@ -57,37 +74,63 @@ main{
     align-items: center;
     width: 80%;
     height: 450px;
-    background-color: #2D82B7;
-    gap: 15px;
+    background-color: #2d82b746;
+    gap: 24px;
     text-align: center;
     padding-top: 80px;
     margin: 0 auto;
     border-radius: 20px;
 }
-#p1{
+#sobre-mim{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#c1h1{
+    font-size: 50px;
+
+}
+#c1p1{
     text-align: center;
     width: 500px;
-    background-color: blueviolet;
+    gap: 20px;
+    display: flex;
+    font-size: 18px;
 }
 #iam{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 95%;
+    gap: 50px;
 }
 .cards{
-    background-color: blue;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
-    justify-content: space-between;
+    gap: 36px;
+
 }
 .box{
-    gap: 30px;
-    width: 250px;
+    width: 450px;
+    height: 280px;
     padding: 20px;
-    background-color: aqua;
+    background-color: white;
     border-radius: 20px;
+    color: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.h3-box{
+
+}
+.paragrafo-box{
 
 }
 #h1sk{
@@ -97,7 +140,7 @@ main{
 #skillicon{
     display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 #skill{
     display: flex;
@@ -128,7 +171,7 @@ main{
     flex-direction: column;
     width: auto;
     height: auto; 
-    background-color: #2D82B7;
+    background-color: #2d82b746;
     padding: 45px 35px;
     border-radius: 20px;
     gap: 13px;
@@ -144,7 +187,7 @@ main{
     padding: 40px;
 }
 #footer{
-    background-color: rgb(68, 37, 241);
+    background-color: #2d82b746;
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
@@ -171,4 +214,8 @@ margin: 80px 0px;
 }
 #link-footer{
     gap: 50px 100px;
+}
+#box_left{
+    display: flex;
+    align-items: flex-end;
 }
